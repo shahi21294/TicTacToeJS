@@ -1,0 +1,81 @@
+button {
+		  border: 0;
+		  font-size: 25px;
+		}
+
+		input:hover,
+		input:active,
+		input:focus,
+		textarea:hover,
+		textarea:active,
+		textarea:focus,
+		button:hover,
+		button:active,
+		button:focus {
+		  outline: none;
+		}
+
+		html {
+		  font-size: 221%;
+		}
+		body {
+		  align-items: center;
+		  display: flex;
+		  height: 100vh;
+		  justify-content: center;
+		  font-family: arial;
+		  
+		}
+		
+		
+		.ticTacToe {
+		  border-radius: 12px;
+		  box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
+		  margin-left: auto;
+		  margin-right: auto;
+		  margin-top: 2em;
+		  max-width: 15em;
+		  overflow: hidden;
+		}
+		.ticTacToeDisplay {
+		  background-color: #99999985;
+		  color: #000;
+		  font-size: 40px;
+		  padding: 40px;
+		  text-align: right;
+		}
+		.ticTacToeKey {
+		  background-color: #99999985;
+		  display: grid;
+		  grid-gap: 3px;
+		  grid-template-columns: repeat(3, 1fr);
+		}
+		.ticTacToeKey > * {
+			cursor: pointer;
+			background-color: #fff;
+			padding: 2em 2em;
+			position: relative;
+			text-align: center;
+		}
+		button img {
+			    width: 42px;
+				height: 42px;
+		}
+		#newGame{
+			background-color:#ccc;
+			border-radius:5px;
+			cursor:pointer;
+			margin-top:50px;
+			padding: 10px;
+		}
+		#message{
+			background-color:green;
+			border-radius:5px;
+			cursor:pointer;
+			margin-top:50px;
+			color: white;
+			text-align: center;
+			
+		}
+		
+		
